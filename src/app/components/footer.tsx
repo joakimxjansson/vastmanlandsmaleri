@@ -28,10 +28,10 @@ export default function Footer() {
                 <div className="text-center md:text-right">
                     <h3 className="text-lg font-semibold text-white mb-2">Följ oss</h3>
                     <div className="flex justify-center md:justify-end gap-4">
-                        <a href="#" aria-label="Facebook" className="hover:text-blue-500">
+                        <a href="https://www.facebook.com/profile.php?id=100066285326050" aria-label="Facebook" className="hover:text-blue-500">
                             <Facebook size={20} />
                         </a>
-                        <a href="#" aria-label="Instagram" className="hover:text-pink-400">
+                        <a href="https://www.instagram.com/vastmanlandsmaleri/" aria-label="Instagram" className="hover:text-pink-400">
                             <Instagram size={20} />
                         </a>
                     </div>

@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="sv" className={inter.className}>
-      <body>{children}</body>
+      <body className="bg-gray-200">{children}</body>
       </html>
   );
 }
