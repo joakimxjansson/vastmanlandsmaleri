@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Services() {
     const services = [
         {
@@ -39,9 +40,11 @@ export default function Services() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {services.map((service, index) => (
                         <div key={index} className="bg-white rounded-3xl p-4 shadow hover:shadow-md transition">
-                            <img
+                            <Image
                                 src={service.image}
                                 alt={service.title}
+                                width="400"
+                                height="400"
                                 className="rounded-2xl w-full h-60 object-cover"
                             />
                             <div className="mt-4">

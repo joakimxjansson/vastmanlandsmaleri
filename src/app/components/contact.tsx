@@ -1,5 +1,5 @@
 // components/ContactCard.tsx
-import { Mail, Phone, MapPin } from "lucide-react";
+
 import {
     Accordion,
     AccordionItem,
